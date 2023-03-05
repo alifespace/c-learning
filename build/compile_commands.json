@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/jamesl/projects/c-learning/build",
-  "command": "/usr/bin/gcc   -g   -o CMakeFiles/Hello.dir/c/hello.c.o   -c /home/jamesl/projects/c-learning/c/hello.c",
-  "file": "/home/jamesl/projects/c-learning/c/hello.c"
-}
-]
