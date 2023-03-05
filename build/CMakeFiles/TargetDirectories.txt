@@ -1,0 +1,3 @@
+/home/jamesl/projects/c-learning/build/CMakeFiles/rebuild_cache.dir
+/home/jamesl/projects/c-learning/build/CMakeFiles/edit_cache.dir
+/home/jamesl/projects/c-learning/build/CMakeFiles/Hello.dir
