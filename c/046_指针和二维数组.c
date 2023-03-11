@@ -26,5 +26,26 @@ int main() {
     int (*p3)[3] = a;
     // int[3] (*p3) = a;
     printf("%p %p\n", p3, p3+1);
+
+    char * str1[5] = {"Hello", "Java", "Word", "US", "China"};
+    for(i=0; i<5; i++) {
+        // printf("%p -> %s\n", str1+i, *(str1+i));
+        printf("%p -> %p\n", str1+i, *(str1+i));
+        printf("%p -> %s\n", str1[i], str1[i]);
+    }
+    str1[0] = "This is a Test";
+    for(i=0; i<5; i++) {
+        printf("%p -> %s\n", str1[i], str1[i]);
+    }
+
+    char *p4 = NULL;
+    char arr2[5][15] = {"Hello", "Java", "World", "US", "China"};
+    p4 = *(arr2);
+    for(i=0; i<5; i++) {
+        printf("%p\n", arr2[i]);
+        p4 = *(arr2+i);
+        // p4 = (char *) arr2[i];   此种写法也可以
+        printf("%p->%s\n", p4, p4);
+    }
     exit(0);
 }

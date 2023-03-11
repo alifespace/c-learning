@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 project(Hello C)
 # SET(SRC_LIST cplus/hello.cpp)
-SET(SRC_LIST c/047_指针和字符数组.c)
+SET(SRC_LIST c/046_指针和二维数组.c)
 add_executable(${PROJECT_NAME} ${SRC_LIST})
