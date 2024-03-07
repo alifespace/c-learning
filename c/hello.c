@@ -2,5 +2,5 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello C World!\n");
+    printf("Hello C Worlds!\n");
 }
