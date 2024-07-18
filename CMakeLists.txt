@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.16)
-project(Hello C)
-# SET(SRC_LIST cplus/hello.cpp)
-SET(SRC_LIST c/056_函数和数组.c)
-add_executable(${PROJECT_NAME} ${SRC_LIST})
